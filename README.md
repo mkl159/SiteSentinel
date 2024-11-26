@@ -1,12 +1,13 @@
 # SiteSentinel
 
-Un bot Telegram multilingue (FR/EN) pour surveiller vos sites web et recevoir des alertes en cas d'erreurs HTTP spécifiques ou de changements de mots-clés détectés.
+Un bot Telegram multilingue (FR/EN) pour surveiller vos sites web et recevoir des alertes en cas d'erreurs HTTP spécifiques ou de changements de mots-clés détectés. Chaque utilisateur peut gérer ses propres alertes de manière indépendante.
 
 ## Fonctionnalités
 
 - **Surveillance des sites web** : Surveillez les sites web pour des erreurs HTTP spécifiques ou la présence/absence de mots-clés.
 - **Notifications en temps réel** : Recevez des alertes instantanées via Telegram en cas d'anomalies détectées.
 - **Multilingue** : Choisissez entre le français et l'anglais comme langue préférée.
+- **Multiutilisateur** : Chaque utilisateur peut gérer ses propres sites web et alertes de manière indépendante.
 - **Interface conviviale** : Interaction facile avec le bot via des commandes simples.
 
 ## Prérequis
@@ -47,7 +48,7 @@ pip install -r requirements.txt
 Lors de la première exécution du script, vous serez invité à entrer le token de votre bot :
 
 ```bash
-python BotWeb.py
+python SiteSentinel.py
 ```
 
 Entrez le token que vous avez reçu de **BotFather**.
@@ -109,33 +110,24 @@ python BotWeb.py
 
 - Envoyez la commande `/removesite` et suivez les instructions pour supprimer un site de la surveillance.
 
-## Support
 
-Si vous avez des questions ou rencontrez des problèmes, veuillez contacter le support à l'adresse email `support@example.com`.
 
-## Contribution
+## Ressources additionnelles
 
-Les contributions sont les bienvenues ! N'hésitez pas à :
-
-- **Forker** le dépôt
-- **Créer** des issues pour signaler des bugs ou proposer des améliorations
-- **Soumettre** des pull requests pour partager vos modifications
-
-## Licence
-
-[Veuillez choisir la licence appropriée pour votre projet]
+- Découvrez la vidéo explicative sur YouTube : [Short SiteSentinel](https://youtube.com/shorts/Tc08WS2iAqk?si=-AnmXAUljfQAMCMc)
 
 ---
 
 # SiteSentinel
 
-A multilingual (FR/EN) Telegram bot to monitor your websites and receive alerts in case of specific HTTP errors or detected keyword changes.
+A multilingual (FR/EN) Telegram bot to monitor your websites and receive alerts in case of specific HTTP errors or detected keyword changes. Each user can manage their own alerts independently.
 
 ## Features
 
 - **Website Monitoring**: Monitor websites for specific HTTP errors or the presence/absence of keywords.
 - **Real-time Notifications**: Receive instant alerts via Telegram when anomalies are detected.
 - **Multilingual**: Choose between French and English as your preferred language.
+- **Multi-user**: Each user can manage their own websites and alerts independently.
 - **User-friendly Interface**: Easily interact with the bot through simple commands.
 
 ## Prerequisites
@@ -176,7 +168,7 @@ pip install -r requirements.txt
 On the first run of the script, you will be prompted to enter your bot's token:
 
 ```bash
-python BotWeb.py
+python SiteSentinel.py
 ```
 
 Enter the token you received from **BotFather**.
@@ -238,26 +230,9 @@ python BotWeb.py
 
 - Send the `/removesite` command and follow the instructions to remove a website from monitoring.
 
-## Support
 
-If you have any questions or encounter issues, please contact support at `support@example.com`.
+## Additional Resources
 
-## Contribution
-
-Contributions are welcome! Feel free to:
-
-- **Fork** the repository
-- **Create** issues to report bugs or suggest improvements
-- **Submit** pull requests to share your changes
-
-## License
-
-[Please choose the appropriate license for your project]
-
-## Final Notes
-
-- **Replace** `votre-utilisateur` or `your-username` with your GitHub username in the repository cloning instructions.
-- **Don't forget** to choose and add a license to your project according to your preferences.
-- **Ensure** you keep your Telegram token secure and do not share it publicly.
+- Check out the explanatory video on YouTube: [Short SiteSentinel](https://youtube.com/shorts/Tc08WS2iAqk?si=-AnmXAUljfQAMCMc)
 
 **Have fun with SiteSentinel!** 🚀

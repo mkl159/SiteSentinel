@@ -47,7 +47,7 @@ pip install -r requirements.txt
 Lors de la première exécution du script, vous serez invité à entrer le token de votre bot :
 
 ```bash
-python BotWeb.py
+python SiteSentinel.py
 ```
 
 Entrez le token que vous avez reçu de **BotFather**.
@@ -163,7 +163,7 @@ pip install -r requirements.txt
 On the first run of the script, you will be prompted to enter your bot's token:
 
 ```bash
-python BotWeb.py
+python SiteSentinel.py
 ```
 
 Enter the token you received from **BotFather**.
